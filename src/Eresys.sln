@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eresys", "Eresys.csproj", "{5AB40B34-E8CF-4897-850E-DA0C196FCD6B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "..\Setup\Setup.vdproj", "{1EFD3260-9DB0-43A5-B7D9-CF50E56AAB5A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5AB40B34-E8CF-4897-850E-DA0C196FCD6B}.Debug.ActiveCfg = Debug|.NET
+		{5AB40B34-E8CF-4897-850E-DA0C196FCD6B}.Debug.Build.0 = Debug|.NET
+		{5AB40B34-E8CF-4897-850E-DA0C196FCD6B}.Release.ActiveCfg = Release|.NET
+		{5AB40B34-E8CF-4897-850E-DA0C196FCD6B}.Release.Build.0 = Release|.NET
+		{1EFD3260-9DB0-43A5-B7D9-CF50E56AAB5A}.Debug.ActiveCfg = Debug
+		{1EFD3260-9DB0-43A5-B7D9-CF50E56AAB5A}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		bin\Debug\eresys.ini = bin\Debug\eresys.ini
+		bin\Debug\eresys.log = bin\Debug\eresys.log
+		bin\Debug\kernel-profile.log = bin\Debug\kernel-profile.log
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
